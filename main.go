@@ -16,5 +16,5 @@ func unusedFunc() {
 
 func errorFunc(msg string) error {
 	fmt.Println(msg)
-	return errors.New("")
+	return errors.New("this is an error")
 }
